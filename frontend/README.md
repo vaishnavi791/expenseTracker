@@ -70,5 +70,7 @@ frontend/
 *  Filter by category
 *  Charts & analytics
 
+## Sneak Peak 
+<img width="665" height="624" alt="Screenshot 2026-04-28 104242" src="https://github.com/user-attachments/assets/016531cb-62fd-4699-b142-b93ac58c5a35" />
 
 
