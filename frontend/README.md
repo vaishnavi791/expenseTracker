@@ -1,16 +1,74 @@
-# React + Vite
+# Expense Tracker – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal Expense Tracker UI built using React
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+*  add new expenses
+*  delete old expenses
+*  calculates total expense
+*  
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## UI Theme
 
-## Expanding the ESLint configuration
+This project uses minimal color palette:
+* `#41431B` – Dark Olive
+* `#AEB784` – Soft Green
+* `#E3DBBB` – Warm Beige
+* `#F8F3E1` – Light Cream
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## How to run ?
+
+### 1. Navigate to the frontend folder
+
+```bash
+cd frontend
+```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```
+frontend/
+ ├── src/
+ │   ├── App.jsx
+ │   ├── App.css
+ │   └── main.jsx
+ ├── public/
+ ├── index.html
+ └── package.json
+```
+
+---
+
+## Tech Stack
+
+* React (Vite)
+* JavaScript (ES6+)
+* CSS3
+
+---
+
+## Improvements 
+
+*  Save data using localStorage or backend 
+*  Filter by category
+*  Charts & analytics
+
+
+
