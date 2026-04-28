@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400;500&display=swap');
+
+:root {
+  --dark: #666820;
+  --green: #95a54c;
+  --beige: #E3DBBB;
+  --light: #F8F3E1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+/* container */
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* heading */
+h1 {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1.5rem;
+}
+
+/* card */
+.card {
+  background: var(--beige);
+  padding: 1rem;
+  border-radius: 18px;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 16px rgba(65, 67, 27, 0.2);
+}
+
+/* form inputs */
+.form input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(174, 183, 132, 0.2); /* soft green */
+  color: var(--dark);
+}
+
+/* placeholder */
+.form input::placeholder {
+  color: rgba(65, 67, 27, 0.6);
+}
+
+/* button */
+button {
+  margin-top: 0.6rem;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 12px;
+  background: var(--green);
+  color: var(--dark);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* total */
+.total {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* list item */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+/* text info */
+.info h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.info p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.info span {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* delete button */
+.delete {
+  background: var(--green);
+  color: var(--dark);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
